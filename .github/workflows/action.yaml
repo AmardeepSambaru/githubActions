@@ -9,7 +9,7 @@ jobs:
                       pwd
                       ls
                 - name: checkout
-                  uses: action/checkout@v1     
+                  uses: action/checkout@v2.5.0     
                 - name: linux-commands-after-checkout
                   run: |
                       pwd
