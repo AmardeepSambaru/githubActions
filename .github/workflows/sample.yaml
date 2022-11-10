@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: printing name
         run: echo "hello amardeep"
+      - name: testing path
+        run: pwd  
