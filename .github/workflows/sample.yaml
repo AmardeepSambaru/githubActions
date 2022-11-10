@@ -7,4 +7,10 @@ jobs:
       - name: printing name
         run: echo "hello amardeep"
       - name: testing path
-        run: pwd  
+        run: pwd
+
+  running-another-shell-commands:      
+    runs-on: ubuntu-latest
+    steps:
+      - name: testing
+        run: echo " Sambaru "        
