@@ -8,5 +8,9 @@ jobs:
                   run: |
                       pwd
                       ls
-              #  - name: checkout
-              #    uses: action/checkout@v2      
+                - name: checkout
+                  uses: action/checkout@v2     
+                - name: linux-commands-after-checkout
+                  run: |
+                      pwd
+                      ls -a  
