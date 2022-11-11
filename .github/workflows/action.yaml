@@ -1,7 +1,8 @@
 name: shell commands
 on:
-
-        pull_request:          
+  pull_request:
+    branches:
+      master          
 jobs: 
         run-shell-commands:
            runs-on: ubuntu-latest
