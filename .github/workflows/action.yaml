@@ -16,4 +16,5 @@ jobs:
                 - name: linux-commands-after-checkout
                   run: |
                       pwd
-                      ls -a  
+                      ls -a
+                      echo "amar"
